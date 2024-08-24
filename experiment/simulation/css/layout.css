@@ -67,9 +67,21 @@ body{
 }
 
 .active{
-    box-shadow: 2px 2px 4px rgba(0,0,0,.15);
+    box-shadow: -1px 2px 9px 0px rgb(0 0 0 / 57%);
     font-weight: bold!important;
     opacity: 1!important;
+    transition: 0.4s;
+    animation: blink 0.5s;
+}
+
+@keyframes blink {
+    from{
+        background-color: #9f91cc;
+        transform: translateY(20px);
+    }
+    to{
+        background: white;
+    }
 }
 
 .active .step::before{
@@ -320,23 +332,36 @@ body{
     top: 80px!important;
 }
 
-
-  /* print */
-  @media print{
-    #drawer, .progress-bar, .anime-header, .anime-footer{
-        display: none!important;
-    }
-    .main-window{
-        border: none;
-    }
-    .certificate{
-        display: flex;
-        transform: translateY(400px) rotate(90deg) scale(1.5,2);
-
-
-    }
-  }
   /* for transparent box */
+  .transparent-box{
+    display: none;
+    height: 100% ;
+    width: 950px;
+    background-color: transparent;
+    z-index: 500;
+    position: absolute;
+
+  }
+
+/* ! Next Btn Deactive class */
+.btn-deactive{
+    transition: 1s;
+    opacity: 0.7!important;
+    cursor: not-allowed!important;
+    background-color: rgb(97, 97, 97)!important;
+    box-shadow: none!important;
+    color: black;
+}
+
+
+.btn-deactive:hover {
+    box-shadow: none!important;
+}
+
+.btn-deactive:active{
+    opacity: none!important;
+    transform: none!important;
+}
   .transparent-box{
     display: none;
     height: 100% ;
