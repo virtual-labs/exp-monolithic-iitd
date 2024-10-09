@@ -1,0 +1,167 @@
+
+/home/runner/work/exp-monolithic-iitd/exp-monolithic-iitd/experiment/simulation/final_styling/fix_styling.js
+  17:7  warning  '$' is not defined  no-undef
+  83:9  warning  '$' is not defined  no-undef
+  87:9  warning  '$' is not defined  no-undef
+  88:9  warning  '$' is not defined  no-undef
+  95:3  warning  '$' is not defined  no-undef
+
+/home/runner/work/exp-monolithic-iitd/exp-monolithic-iitd/experiment/simulation/js/anime.min.js
+  8:69    warning  'module' is not defined                                                    no-undef
+  8:115   warning  'define' is not defined                                                    no-undef
+  8:126   warning  'define' is not defined                                                    no-undef
+  8:913   warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  8:1477  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  8:1499  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  8:4944  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  8:5090  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  8:6945  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+
+/home/runner/work/exp-monolithic-iitd/exp-monolithic-iitd/experiment/simulation/js/jquery.min.js
+  2:71     warning  'module' is not defined                                                    no-undef
+  2:86     warning  'module' is not defined                                                    no-undef
+  2:3270   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:4597   warning  Unexpected control character(s) in regular expression: \x1f                no-control-regex
+  2:6820   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:7258   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:9646   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:11943  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:13856  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:14066  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:14224  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:14540  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  2:15232  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:15588  warning  Empty block statement                                                      no-empty
+  2:17443  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:17541  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:17601  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:17728  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:18898  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:19630  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:19743  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:21298  warning  Unnecessary escape character: \/                                           no-useless-escape
+  2:31055  warning  Empty block statement                                                      no-empty
+  2:34816  warning  Unnecessary escape character: \/                                           no-useless-escape
+  2:36474  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:36590  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:43519  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:47142  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:48710  warning  Empty block statement                                                      no-empty
+  2:57439  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:58614  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:64312  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:67209  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:68903  warning  Empty block statement                                                      no-empty
+  2:72295  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:73901  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:74681  warning  'r.href' is assigned to itself                                             no-self-assign
+  2:79557  warning  Empty block statement                                                      no-empty
+  2:82697  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:87218  warning  'define' is not defined                                                    no-undef
+  2:87230  warning  'define' is not defined                                                    no-undef
+
+/home/runner/work/exp-monolithic-iitd/exp-monolithic-iitd/experiment/simulation/js/layout.js
+   9:10  warning  'nextDrawerItem' is defined but never used  no-unused-vars
+  18:3   warning  'get' is not defined                        no-undef
+  21:10  warning  'backDrawerItem' is defined but never used  no-unused-vars
+
+/home/runner/work/exp-monolithic-iitd/exp-monolithic-iitd/experiment/simulation/js/main.js
+   169:7   warning  'ChartGraph' is assigned a value but never used     no-unused-vars
+   173:6   warning  'Graph1' is not defined                             no-undef
+   177:6   warning  'Graph2' is not defined                             no-undef
+   181:6   warning  'Graph3' is not defined                             no-undef
+   185:6   warning  'Graph4' is not defined                             no-undef
+   201:23  warning  'Chart' is not defined                              no-undef
+   235:5   warning  'isPerformNext' is assigned a value but never used  no-unused-vars
+   282:7   warning  'opacity' is assigned a value but never used        no-unused-vars
+   288:7   warning  'hideAll' is assigned a value but never used        no-unused-vars
+   288:28  warning  'disp' is assigned a value but never used           no-unused-vars
+   294:7   warning  'showAll' is assigned a value but never used        no-unused-vars
+   294:28  warning  'disp' is assigned a value but never used           no-unused-vars
+   301:7   warning  'set' is assigned a value but never used            no-unused-vars
+   334:29  warning  'speed' is assigned a value but never used          no-unused-vars
+   341:15  warning  'Typed' is not defined                              no-undef
+   362:19  warning  'src' is not defined                                no-undef
+   496:17  warning  'anime' is not defined                              no-undef
+   650:10  warning  'cursorPointer' is defined but never used           no-unused-vars
+   829:10  warning  'i' is not defined                                  no-undef
+   830:18  warning  'i' is not defined                                  no-undef
+   832:10  warning  'i' is not defined                                  no-undef
+   833:11  warning  'i' is not defined                                  no-undef
+   833:28  warning  'i' is not defined                                  no-undef
+   833:48  warning  'i' is not defined                                  no-undef
+   836:25  warning  'i' is not defined                                  no-undef
+   896:6   warning  'intro' is not defined                              no-undef
+   929:18  warning  'anime' is not defined                              no-undef
+   951:15  warning  'intru' is not defined                              no-undef
+   951:27  warning  'Typed' is not defined                              no-undef
+   970:16  warning  'intru' is not defined                              no-undef
+   986:6   warning  'objective' is not defined                          no-undef
+  1003:5   warning  'anime' is not defined                              no-undef
+  1150:6   warning  'step2' is not defined                              no-undef
+  1215:11  warning  'anime' is not defined                              no-undef
+  1237:11  warning  'anime' is not defined                              no-undef
+  1259:11  warning  'anime' is not defined                              no-undef
+  1289:13  warning  'anime' is not defined                              no-undef
+  1350:6   warning  'step2' is not defined                              no-undef
+  1403:11  warning  'anime' is not defined                              no-undef
+  1441:13  warning  'anime' is not defined                              no-undef
+  1480:6   warning  'step3' is not defined                              no-undef
+  1591:11  warning  'anime' is not defined                              no-undef
+  1614:11  warning  'anime' is not defined                              no-undef
+  1637:11  warning  'anime' is not defined                              no-undef
+  1667:13  warning  'anime' is not defined                              no-undef
+  1718:6   warning  'step4' is not defined                              no-undef
+  1848:11  warning  'anime' is not defined                              no-undef
+  1873:11  warning  'anime' is not defined                              no-undef
+  1904:13  warning  'anime' is not defined                              no-undef
+  1943:11  warning  'anime' is not defined                              no-undef
+  1980:11  warning  'anime' is not defined                              no-undef
+  1989:6   warning  'step5' is not defined                              no-undef
+  2106:11  warning  'left' is assigned a value but never used           no-unused-vars
+  2107:11  warning  'right' is assigned a value but never used          no-unused-vars
+  2113:11  warning  'anime' is not defined                              no-undef
+  2136:11  warning  'anime' is not defined                              no-undef
+  2173:11  warning  'anime' is not defined                              no-undef
+  2182:6   warning  'step6' is not defined                              no-undef
+  2306:11  warning  'left' is assigned a value but never used           no-unused-vars
+  2307:11  warning  'right' is assigned a value but never used          no-unused-vars
+  2313:11  warning  'anime' is not defined                              no-undef
+  2336:11  warning  'anime' is not defined                              no-undef
+  2359:11  warning  'anime' is not defined                              no-undef
+  2382:11  warning  'anime' is not defined                              no-undef
+  2417:11  warning  'anime' is not defined                              no-undef
+  2426:6   warning  'step7' is not defined                              no-undef
+  2580:11  warning  'anime' is not defined                              no-undef
+  2595:15  warning  'anime' is not defined                              no-undef
+  2610:19  warning  'anime' is not defined                              no-undef
+  2625:23  warning  'anime' is not defined                              no-undef
+  2653:11  warning  'anime' is not defined                              no-undef
+  2668:15  warning  'anime' is not defined                              no-undef
+  2692:11  warning  'anime' is not defined                              no-undef
+  2707:15  warning  'anime' is not defined                              no-undef
+  2722:19  warning  'anime' is not defined                              no-undef
+  2737:23  warning  'anime' is not defined                              no-undef
+  2752:27  warning  'anime' is not defined                              no-undef
+  2767:31  warning  'anime' is not defined                              no-undef
+  2782:35  warning  'anime' is not defined                              no-undef
+  2797:39  warning  'anime' is not defined                              no-undef
+  2812:43  warning  'anime' is not defined                              no-undef
+  2827:47  warning  'anime' is not defined                              no-undef
+  2842:51  warning  'anime' is not defined                              no-undef
+  2857:55  warning  'anime' is not defined                              no-undef
+  2927:6   warning  'completed' is not defined                          no-undef
+  2967:7   warning  'backDrawerItem' is not defined                     no-undef
+  2968:7   warning  'backProgressBar' is not defined                    no-undef
+  2980:9   warning  'nextDrawerItem' is not defined                     no-undef
+  2981:9   warning  'nextProgressBar' is not defined                    no-undef
+  2984:12  warning  Empty block statement                               no-empty
+
+/home/runner/work/exp-monolithic-iitd/exp-monolithic-iitd/experiment/simulation/js/progressBar.js
+   2:7  warning  'prevBtns' is assigned a value but never used         no-unused-vars
+   3:7  warning  'nextBtns' is assigned a value but never used         no-unused-vars
+  12:7  warning  'nextProgressBar' is assigned a value but never used  no-unused-vars
+  19:7  warning  'backProgressBar' is assigned a value but never used  no-unused-vars
+
+✖ 152 problems (0 errors, 152 warnings)
+
